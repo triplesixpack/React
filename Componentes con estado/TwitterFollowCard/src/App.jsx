@@ -16,7 +16,7 @@ const users = [
   {
     userName: 'qp41n',
     name: 'Qart',
-    isFollowing: true
+    isFollowing: false
   }
 ]
 
