@@ -1,6 +1,6 @@
 import { Square } from './Square';
 
-export function WinnerComp(winner, resetBoard) {
+export function WinnerComp({winner, resetBoard}) {
     if (winner === null) return null
 
     const winnerText = winner === false ? 'Empate' : 'Ganó:'
